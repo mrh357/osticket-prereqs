@@ -20,11 +20,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (22H2)
 
-<h2>List of Prerequisites</h2>
+<h2>List of objectives</h2>
 
-- ### [Prerequisite Files Download Folder](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+- ### [Download prerequisites and dependencies](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 - creating a VM in Azure
-- PHP manager for IIS<br/>
+- enable IIS
+- Use PHP manager to edit the webserver
+- install osTicket on the server
+<br/>
 <br/>
 
 <h2>Creating a VM in Azure</h2>
