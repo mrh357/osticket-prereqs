@@ -20,13 +20,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (22H2)
 
-<h2>List of objectives</h2>
+<h2>High level steps</h2>
 
 - ### [Download prerequisites and dependencies](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
-- creating a VM in Azure
-- enable IIS
+- Create a VM in Azure
+- Enable IIS
+- Enable IIS management Console
+- Enable World Wide Web Services
+- Enable CGI
+- Enabke Common HTTP features
 - Use PHP manager to edit the webserver
-- install osTicket on the server
+- Install dependencies from the list
+- Create a mySQL database
+- Install osTicket on the server
+- Link mySQL with heidi SQL
+- Create help desk
+- Create admin account
 <br/>
 <br/>
 
@@ -36,9 +45,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <br />
-go to https://portal.azure.com/#home and create an account if necessary <br/>
+1. go to https://portal.azure.com/#home and create an account if necessary <br/>
 <br/>
-1\. Click "Virtual machines"
+2. Click "Virtual machines"
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-11-02/6cd5c419-70f4-4157-ac6e-57105c9f25f1/screenshot.jpeg?tl_px=577,0&br_px=1437,480&force_format=png&width=860&wat_scale=76&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=402,203)
 
@@ -410,7 +419,7 @@ go to https://portal.azure.com/#home and create an account if necessary <br/>
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-11-02/e73fb039-293f-42d6-bce8-cf8fea49ff7c/screenshot.jpeg?tl_px=540,646&br_px=1400,1127&force_format=png&width=860&wat_scale=76&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=402,212)
 
-81\. Click add and select aprincipal
+81\. Click add and select a principal
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-11-02/0dbf3778-d087-4258-b5c8-bb8681a0dd06/screenshot.jpeg?tl_px=529,220&br_px=1389,701&force_format=png&width=860&wat_scale=76&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=402,212)
 
 82\. Type 'everyone' click check name,
